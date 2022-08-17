@@ -22,9 +22,9 @@ lot2 <- Suspension_Coil[Suspension_Coil$Manufacturing_Lot == "Lot2",]
 lot3 <- Suspension_Coil[Suspension_Coil$Manufacturing_Lot == "Lot3",]
 
 
-t.test(log10(Sample_total$PSI),mu=mean(log10(Suspension_Coil$PSI)))
-t.test(log10(lot1$PSI),mu=mean(log10(Suspension_Coil$PSI))) 
-t.test(log10(lot2$PSI),mu=mean(log10(Suspension_Coil$PSI))) 
-t.test(log10(lot3$PSI),mu=mean(log10(Suspension_Coil$PSI))) 
+t.test(Sample_total$PSI,mu=mean(Suspension_Coil$PSI))
+t.test(lot1$PSI,mu=mean(Suspension_Coil$PSI)) 
+t.test(lot2$PSI,mu=mean(Suspension_Coil$PSI)) 
+t.test(lot3$PSI,mu=mean(Suspension_Coil$PSI)) 
 
 
