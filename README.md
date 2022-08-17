@@ -9,7 +9,7 @@ Luckily for Jeremy, Autos R Us is at the pinnacle of automotive engineering. In 
 He can do this in the form of a 0-60mph test. These tests are a reliable way to test the overall speed of the car because it involves a full pedal-to-the-medal approach to the car’s utility. The timer starts when the car is idle, and then ends when the car hits a speed of 60mph. There are other speed tests that we could use for our study, but 0-60mph times are the best way to test speed within the limits of practical usage.  
 
 ### Hypothesis
-H0: If MechaCar isn’t the fastest car on the market, then it will not have a lower 0-60mph time over the course of fifty tests.
+H0: If MechaCar isn’t the fastest car on the market, then it will not have a lower 0-60mph time over the course of fifty tests. <br />
 HA: If MechaCar is the fastest car on the market, then it will have a lower 0-60mph time over the course of fifty tests. 
 
 ### Statistical Test
